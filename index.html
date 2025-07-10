@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safarino - main</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header" id="header">
+    <nav class="navbar wow fadeInDown" data-wow-duration="1" data-wow-delay="0.9s">
+      <div class="container">
+        <a href="javascript:void(0)" class="brand">
+          <h1 class="nav-title">سفرینو</h1>
+        </a>
+        <div class="burger">
+          <div class="burger-line-wrapper">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </div>
+        </div>
+        <div class="menu" id="menu">
+          <div class="menu-header">
+            <a href="javascript:void(0)" class="brand">
+              <h2 class="burger-title">سفرینو</h2>
+            </a>
+            <div class="burger is-active close-menu">
+              <div class="burger-line-wrapper">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+              </div>
+            </div>
+          </div>
+          <ul class="menu-inner">
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link">مقاصد گردشگری</a>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link">هتل ها</a>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link">پرواز ها</a>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link">رزرو</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-block">
+          <a href="./login.html" class="menu-block-link">ورود</a>
+          <a href="./login.html" class="menu-block-link menu-block-btn">ثبت نام</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header-backdrop"></div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+    <!-- Hero Section -->
+    <section class="section hero-section">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-row">
+            <div class="hero-column hero-column-image">
+              <div class="hero-image wow fadeIn" data-wow-duration="1" data-wow-delay="0.10s">
+                <img class="hero-plan-left" src="./images/hero-image/plan-left.png" alt="" />
+                <img class="hero-main-image" src="./images/hero-image/main.png" alt="" />
+                <img class="hero-plan-right" src="./images/hero-image/plan-right.png" alt="" />
+              </div>
+            </div>
+            <div class="hero-column hero-column-content">
+              <div class="hero-content">
+                <div class="hero-sub-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+                  بهترین جاهای دیدنی در سرتاسر دنیا
+                </div>
+                <h1 class="hero-main-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+                  سفر کن, <span class="text-decoration">لذت ببر</span> و یک زندگی جدید و پرماجرا رو تجربه کن !
+                </h1>
+                <div class="hero-copy-text wow fadeInUp" data-wow-duration="1" data-wow-delay="0.7s">
+                  <p>
+                    سفرینو، با بیش از ۱۵ سال تجربه در حوزه گردشگری، ارائه دهنده تورها، خدمات رزرو و مشاوره سفر به سرتاسر
+                    ایران همواره تلاش کرده است تا با برنامه ریزی دقیق، خدمات قابل اعتماد و پشتیبانی مستمر، تجربه ای
+                    متفاوت و به یادماندنی از سفر را برای مشتریان خود فراهم کند.
+                  </p>
+                </div>
+                <div class="hero-action wow fadeInUp" data-wow-duration="1" data-wow-delay="0.8s">
+                  <a href="javascript:void(0)" class="hero-find-btn">اطلاعات بیشتر</a>
+                  <a href="javascript:void(0)" class="hero-play-btn">
+                    <span>
+                      <i class="bx bx-play"></i>
+                    </span>
+                    پیش نمایش
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="section category-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-sub-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+            دسته بندی ها
+          </div>
+          <h3 class="section-main-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+            ما بهترین خدمات را معرفی می کنیم
+          </h3>
+        </div>
+
+        <div class="category-section-wrapper">
+          <div class="category-row">
+            <div class="category-column wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+              <div class="category-card">
+                <img class="category-icon" src="./images/category-icon-1.svg" alt="" />
+                <div class="category-title">پیش بینی دقیق آب و هوا</div>
+                <div class="category-copy">
+                  با اطلاعات به روز و محاسبه شده، بهترین زمان سفر رو هوشمندانه انتخاب کن.
+                </div>
+              </div>
+              <div class="category-rectangle">
+                <img src="./images/category-rectangle.png" alt="" />
+              </div>
+            </div>
+            <div class="category-column wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+              <div class="category-card">
+                <img class="category-icon" src="./images/category-icon-2.svg" alt="" />
+                <div class="category-title">بهترین برنامه های پرواز</div>
+                <div class="category-copy">
+                  پرواز های منتخب به مقصد های مختلف، با قیمت مناسب و زمان بندی انعطاف پذیر.
+                </div>
+              </div>
+              <div class="category-rectangle">
+                <img src="./images/category-rectangle.png" alt="" />
+              </div>
+            </div>
+            <div class="category-column wow fadeInUp" data-wow-duration="1" data-wow-delay="0.7s">
+              <div class="category-card">
+                <img class="category-icon" src="./images/category-icon-3.svg" alt="" />
+                <div class="category-title">رویداد های منطقه ای</div>
+                <div class="category-copy">
+                  از جشن ها و مراسم محلی و کنسرت ها باخبر شو و سفرت رو با حال و هوای مقصد هماهنگ کن.
+                </div>
+              </div>
+              <div class="category-rectangle">
+                <img src="./images/category-rectangle.png" alt="" />
+              </div>
+            </div>
+            <div class="category-column wow fadeInUp" data-wow-duration="1" data-wow-delay="0.8s">
+              <div class="category-card">
+                <img class="category-icon" src="./images/category-icon-4.svg" alt="" />
+                <div class="category-title">سفارشی سازی</div>
+                <div class="category-copy">
+                  هر بخش از سفرت رو دقیقا مطابق سلیقه ات تنظیم کن؛ از انتخاب پرواز و هتل تا زمان بندی بازدیدها.
+                </div>
+              </div>
+              <div class="category-rectangle">
+                <img src="/images/category-rectangle.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="category-pattern">
+          <img src="./images/category-patt.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Selling Section -->
+    <section class="section selling-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-sub-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+            پرفروش ترین ها
+          </div>
+          <h3 class="section-main-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+            مقاصد پیشنهادی سفرینو
+          </h3>
+        </div>
+
+        <div class="selling-section-wrapper">
+          <div class="selling-row">
+            <div class="selling-column wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+              <div class="selling-card">
+                <a href="javascript:void(0)">
+                  <div class="selling-card-image">
+                    <img src="./images/kish-island.jpg" alt="" />
+                  </div>
+                  <div class="selling-details">
+                    <div class="selling-info">
+                      <div class="selling-location">جزیره کیش</div>
+                      <div class="selling-price">۲۰ میلیون تومان</div>
+                    </div>
+                    <div class="selling-duration">
+                      <i class="bx bx-calendar"></i>تور ۵ روزه
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="selling-column wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+              <div class="selling-card">
+                <a href="javascript:void(0)">
+                  <div class="selling-card-image">
+                    <img src="./images/mashhad-city.jpg" alt="" />
+                  </div>
+                  <div class="selling-details">
+                    <div class="selling-info">
+                      <div class="selling-location">مشهد مقدس</div>
+                      <div class="selling-price">۱۰ میلیون تومان</div>
+                    </div>
+                    <div class="selling-duration">
+                      <i class="bx bx-calendar"></i>تور ۷ روزه
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="selling-column wow fadeInUp" data-wow-duration="1" data-wow-delay="0.7s">
+              <div class="selling-card">
+                <a href="javascript:void(0)">
+                  <div class="selling-card-image">
+                    <img src="./images/shiraz-city.jpg" alt="" />
+                  </div>
+                  <div class="selling-details">
+                    <div class="selling-info">
+                      <div class="selling-location">شیراز</div>
+                      <div class="selling-price">14 میلیون تومان</div>
+                    </div>
+                    <div class="selling-duration">
+                      <i class="bx bx-calendar"></i>تور 8 روزه
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps Section -->
+    <section class="section steps-section">
+      <div class="container">
+        <div class="steps-row">
+          <div class="steps-column steps-column-steps">
+            <div class="section-header">
+              <div class="section-sub-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+                سریع و آسون
+              </div>
+              <h3 class="section-main-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+                سفر بعدیتو در <br />
+                ۳ قدم ساده رزرو کن
+              </h3>
+            </div>
+
+            <div class="steps-steps">
+              <ul>
+                <li class="wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+                  <div class="step-icon step-icon-yellow">
+                    <img src="./images/selection.png" alt="" />
+                  </div>
+                  <div class="step-detail">
+                    <div class="step-title">مقصدتو انتخاب کن</div>
+                    <div class="step-copy">
+                      از بین محبوب ترین شهرهای ایران، مقصد دلخواهت رو برای یه سفر خاطره انگیز انتخاب کن.
+                    </div>
+                  </div>
+                </li>
+                <li class="wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+                  <div class="step-icon step-icon-orange">
+                    <img src="./images/water-sport.png" alt="" />
+                  </div>
+                  <div class="step-detail">
+                    <div class="step-title">هزینه رو پرداخت کن</div>
+                    <div class="step-copy">
+                      با چند کلیک ساده و پرداخت امن، سفرت رو قطعی کن و تاییده تو دریافت کن.
+                    </div>
+                  </div>
+                </li>
+                <li class="wow fadeInUp" data-wow-duration="1" data-wow-delay="0.7s">
+                  <div class="step-icon step-icon-green">
+                    <img src="./images/taxi.png" alt="" />
+                  </div>
+                  <div class="step-detail">
+                    <div class="step-title">
+                      در تاریخ مشخص شده به فرودگاه برو
+                    </div>
+                    <div class="step-copy">
+                      در تاریخ انتخاب شده و با خیال راحت راهی فرودگاه شو؛ ما از قبل همه چیز رو هماهنگ کردیم :)
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="steps-column steps-column-card">
+            <div class="step-card wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+              <a href="javascript:void(0)">
+                <div class="step-card-header">
+                  <img src="./images/greece-trip.jpg" alt="" />
+                </div>
+                <div class="step-card-body">
+                  <div class="step-card-title">سفر به قشم</div>
+                  <div class="step-card-trip-details">
+                    <div class="trip-date">۲۰-۲۵ تیر</div>
+                    <div>|</div>
+                    <div class="trip-by">به سرپرستی کامیار حاج محمدنیا</div>
+                  </div>
+                  <div class="step-card-icons">
+                    <div class="step-card-icon">
+                      <i class="bx bx-leaf"></i>
+                    </div>
+                    <div class="step-card-icon">
+                      <i class="bx bx-map-alt"></i>
+                    </div>
+                    <div class="step-card-icon">
+                      <i class="bx bx-send"></i>
+                    </div>
+                  </div>
+                  <div class="step-card-people">
+                    <i class="bx bx-group"></i>
+                    ۲۴ نفر ثبت نام کرده اند
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="step-card-small">
+              <a href="javascript:void(0)" class="wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+                <div class="step-card-small-head">
+                  <div class="step-card-small-image">
+                    <img src="./images/shiraz-city.jpg" alt="" />
+                  </div>
+                  <div class="step-card-small-copy">
+                    <div class="step-card-small-status">در حال برگزاری</div>
+                    <div class="step-card-small-title">سفر به شیراز</div>
+                    <div class="step-card-small-progress">
+                      <span>۴۰%</span> تکمیل شده
+                      <div class="step-card-small-bar">
+                        <div class="step-card-bar-done" style="width: 40%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="step-shadow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section swiper">
+      <div class="container">
+        <div class="testimonials-row">
+          <div class="testimonials-column">
+            <div class="section-header">
+              <div class="section-sub-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+                تجربه دیگران
+              </div>
+              <h3 class="section-main-heading wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+                مردم درباره ما چه <br />
+                می گویند.
+              </h3>
+            </div>
+          </div>
+          <div class="testimonials-column slider-column wow fadeIn" data-wow-duration="1" data-wow-delay="0.5s">
+            <!-- Slider main container -->
+            <div class="testimonials-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonials-card">
+                    <div class="testimonials-avatar">
+                      <img src="./images/user-boy-1.jpeg" alt="" />
+                    </div>
+                    <div class="testimonials-quote">
+                      “همه چی عالی بود. مخصوصا لیدر تور که خیلی با حوصله و مهربون بود. کلی خوش گذشت بهمون.”
+                    </div>
+                    <div class="testimonials-person">کامیار حاج محمدنیا</div>
+                    <div class="testimonials-info">تور مشهد</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonials-card">
+                    <div class="testimonials-avatar">
+                      <img src="./images/user-boy-2.jpeg" alt="" />
+                    </div>
+                    <div class="testimonials-quote">
+                      “قیمت نسبت به خدماتی که دادن واقعا منصفانه بود. حتما دوباره ازشون تور می گیرم.”
+                    </div>
+                    <div class="testimonials-person">علی سلطانی</div>
+                    <div class="testimonials-info">تور قشم</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonials-card">
+                    <div class="testimonials-avatar">
+                      <img src="./images/user-girl-1.jpg" alt="" />
+                    </div>
+                    <div class="testimonials-quote">
+                      “برنامه ریزی سفر خیلی منظم و بدون دردسر بود. حسابی روحیه ام رو عوض کرد.”
+                    </div>
+                    <div class="testimonials-person">نازنین احمدی</div>
+                    <div class="testimonials-info">تور رشت</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonials-card">
+                    <div class="testimonials-avatar">
+                      <img src="./images/user-boy-3.jpg" alt="" />
+                    </div>
+                    <div class="testimonials-quote">
+                      “اولش مردد بودم که توی تور ثبت نام بکنم یا نه ولی واقعا همه چی فراتر از انتظارم بود، مخصوصا هتلش
+                      خیلی شیک و تمیز بود.”
+                    </div>
+                    <div class="testimonials-person">پوریا حسینی</div>
+                    <div class="testimonials-info">تور تبریز</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonials-card">
+                    <div class="testimonials-avatar">
+                      <img src="./images/user-girl-2.jpg" alt="" />
+                    </div>
+                    <div class="testimonials-quote">
+                      “با اینکه خانوادگی رفتیم ولی واسه همه سنین برنامه داشتن، تجربه زیارتی فوق العاده ای بود.”
+                    </div>
+                    <div class="testimonials-person">سارا کرمی</div>
+                    <div class="testimonials-info">تور مشهد</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- If we need pagination -->
+              <div class="swiper-pagination wow fadeIn" data-wow-duration="1" data-wow-delay="0.5s"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="testimonials-controls wow fadeIn" data-wow-duration="1" data-wow-delay="0.6s">
+                <div class="swiper-button-prev bx bx-chevron-up"></div>
+                <div class="swiper-button-next bx bx-chevron-down"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section logo-section">
+      <div class="container">
+        <div class="swiper logo-section-swiper">
+          <div class="swiper-wrapper client-logo-slider">
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+              <img src="./images/alibaba-logo.svg" alt="client-logo" />
+            </a>
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+              <img src="./images/flytoday-logo.svg" alt="client-logo" />
+            </a>
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.7s">
+              <img src="./images/respina-logo.png" alt="client-logo" />
+            </a>
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.8s">
+              <img src="./images/homa-logo.jpg" alt="client-logo" />
+            </a>
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.9s">
+              <img src="./images/safarmarket-logo.svg" alt="client-logo" />
+            </a>
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.9s">
+              <img src="./images/alibaba-logo.svg" alt="client-logo" />
+            </a>
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.9s">
+              <img src="./images/flytoday-logo.svg" alt="client-logo" />
+            </a>
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.9s">
+              <img src="./images/respina-logo.png" alt="client-logo" />
+            </a>
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.9s">
+              <img src="./images/homa-logo.jpg" alt="client-logo" />
+            </a>
+            <a href="javascript:void(0)" class="swiper-slide wow fadeInUp" data-wow-duration="1" data-wow-delay="0.9s">
+              <img src="./images/safarmarket-logo.svg" alt="client-logo" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-news">
+      <div class="container">
+        <div class="section-news-inner">
+          <h3 class="section-news-title wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+            با عضویت در خبرنامه ما میتونی از آخرین اخبار و پیشنهادها و تخفیف های ویژه سفرینو با خبر بشی !
+          </h3>
+
+          <div class="section-news-field">
+            <div class="section-news-input wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+              <i class="bx bx-envelope"></i>
+              <input type="email" placeholder="ایمیل شما" name="" id="" />
+            </div>
+            <div class="section-news-btn wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+              <button>عضویت</button>
+            </div>
+          </div>
+
+          <img class="section-news-send wow fadeIn" data-wow-duration="1" data-wow-delay="0.5s" src="./images/send.png"
+            alt="" />
+          <img class="section-news-bg-1 wow fadeIn" data-wow-duration="1" data-wow-delay="0.8s"
+            src="./images/nl-bg1.png" alt="" />
+          <img class="section-news-bg-2 wow fadeIn" data-wow-duration="1" data-wow-delay="0.9s"
+            src="./images/nl-bg2.png" alt="" />
+          <img class="section-bg-pat" src="./images/category-patt.png" alt="" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-column footer-column-logo wow fadeIn" data-wow-duration="1" data-wow-delay="0.5s">
+          <div class="footer-logo">سفرینو</div>
+          <div class="footer-copy">
+            ما بهترینیم چون شما باعث شدید
+          </div>
+        </div>
+        <div class="footer-column footer-column-link wow fadeIn" data-wow-duration="1" data-wow-delay="0.5s">
+          <h4 class="footer-heading">تیم ما</h4>
+          <ul class="footer-links-list">
+            <li class="footer-links-item">
+              <a href="javascript:void(0)">درباره ما</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="javascript:void(0)">فرصت های شغلی</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="javascript:void(0)">قوانین و مقررات</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column footer-column-link wow fadeIn" data-wow-duration="1" data-wow-delay="0.6s">
+          <h4 class="footer-heading">ارتباط با ما</h4>
+          <ul class="footer-links-list">
+            <li class="footer-links-item">
+              <a href="javascript:void(0)">پرسش های متداول</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="javascript:void(0)">رسانه های ارتباطی</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="javascript:void(0)">همکاری در فروش</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column footer-column-link wow fadeIn" data-wow-duration="1" data-wow-delay="0.7s">
+          <h4 class="footer-heading">موارد بیشتر</h4>
+          <ul class="footer-links-list">
+            <li class="footer-links-item">
+              <a href="javascript:void(0)">محاسبه هزینه ها</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="javascript:void(0)">شرکت های هواپیمایی</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="javascript:void(0)">نکات پرواز ارزان قیمت</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column footer-column-social">
+          <ul class="footel-social-list">
+            <li class="footer-social-item wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+              <a href="javascript:void(0)">
+                <i class="bx bxl-facebook"></i>
+              </a>
+            </li>
+            <li class="footer-social-item wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+              <a href="javascript:void(0)">
+                <i class="bx bxl-instagram"></i>
+              </a>
+            </li>
+            <li class="footer-social-item wow fadeInUp" data-wow-duration="1" data-wow-delay="0.7s">
+              <a href="javascript:void(0)">
+                <i class="bx bxl-twitter"></i>
+              </a>
+            </li>
+          </ul>
+
+          <div class="footer-app-title wow fadeIn" data-wow-duration="1" data-wow-delay="0.5s">
+            دسترسی به اپلیکیشن ما
+          </div>
+          <div class="footer-apps">
+            <a href="javascript:void(0)" class="wow fadeInUp" data-wow-duration="1" data-wow-delay="0.6s">
+              <img src="./images/play-store.png" alt="" />
+            </a>
+            <a href="javascript:void(0)" class="wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+              <img src="./images/apple-store.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copy-rights wow fadeIn" data-wow-duration="1" data-wow-delay="0.5s">
+      تمامی حقوق برای @safarino محفوظ است
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
