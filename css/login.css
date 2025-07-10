@@ -8,7 +8,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
-  background: url("../images/signup-back.jpg") no-repeat center;
+  background: url("../images/signup-back.webp") no-repeat center;
   background-size: cover;
 }
 
